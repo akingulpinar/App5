@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.YazOkuluCP1">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <BoxView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Red"></BoxView>
+                <Button Text="click" Clicked="Button_Clicked"></Button>
+            <!--<BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="Black"/>-->
+            <BoxView Grid.Row="1" Grid.Column="0" BackgroundColor="Yellow"/>
+            <BoxView Grid.Row="1" Grid.Column="1" BackgroundColor="Blue"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
